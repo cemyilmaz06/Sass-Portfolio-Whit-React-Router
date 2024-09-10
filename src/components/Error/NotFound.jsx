@@ -6,7 +6,7 @@ const NotFound = () => {
   const navigate=useNavigate();
   return (
     <div className="error">
-      <img src={notFound} width="500px" alt="" />
+      <img src={notFound} width="500px" alt=""/>
      
       <button className='btn'onClick={()=>navigate("/")}>GO HOME</button>
     </div>
