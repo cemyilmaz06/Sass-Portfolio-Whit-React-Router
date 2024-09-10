@@ -1,0 +1,27 @@
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home__name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+.home__name--last {
+  color: red;
+  font-weight: 700;
+}/*# sourceMappingURL=Home.css.map */
